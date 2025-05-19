@@ -9,9 +9,8 @@ Wheaterly é uma aplicação web desenvolvida em React que permite ao usuário b
 ## 🚀 Funcionalidades
 
 - 🔎 Autocomplete de cidades com sugestões em tempo real
-- 🌎 Filtro para mostrar apenas cidades brasileiras
 - ☀️ Consulta ao clima atual com dados da [OpenWeatherMap API](https://openweathermap.org/)
-- 📍 Exibição do estado e país da cidade selecionada
+- 📍  Exibição do estado e país da cidade selecionada
 - 🔄 Feedback de carregamento e mensagens de erro tratadas
 
 ---
@@ -23,8 +22,6 @@ Durante o desenvolvimento do Wheaterly, foram praticados e consolidados os segui
 - **React (Hooks)**: uso de `useState`, `useEffect` e composição de componentes
 - **Consumo de APIs**: integração com a OpenWeatherMap para dados de clima e geolocalização
 - **Autocomplete + debounce**: lógica de sugestões com `setTimeout` para evitar requisições excessivas
-- **Filtragem de dados**: apenas cidades válidas no Brasil são sugeridas ao usuário
-- **Responsividade e UX**: interface amigável com feedbacks de loading e erro
 
 ---
 
