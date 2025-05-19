@@ -1,12 +1,50 @@
-# React + Vite
+# 🌤️ Wheaterly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wheaterly é uma aplicação web desenvolvida em React que permite ao usuário buscar informações meteorológicas de forma rápida e intuitiva. Basta digitar o nome de uma cidade e obter os dados do clima atual, incluindo temperatura, sensação térmica, umidade e mais.
 
-Currently, two official plugins are available:
+👉 Acesse o projeto em produção: [https://wheaterly.vercel.app](https://wheaterly.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔎 Autocomplete de cidades com sugestões em tempo real
+- 🌎 Filtro para mostrar apenas cidades brasileiras
+- ☀️ Consulta ao clima atual com dados da [OpenWeatherMap API](https://openweathermap.org/)
+- 📍 Exibição do estado e país da cidade selecionada
+- 🔄 Feedback de carregamento e mensagens de erro tratadas
+
+---
+
+## 🧠 Tecnologias e Aprendizados
+
+Durante o desenvolvimento do Wheaterly, foram praticados e consolidados os seguintes conceitos:
+
+- **React (Hooks)**: uso de `useState`, `useEffect` e composição de componentes
+- **Consumo de APIs**: integração com a OpenWeatherMap para dados de clima e geolocalização
+- **Autocomplete + debounce**: lógica de sugestões com `setTimeout` para evitar requisições excessivas
+- **Filtragem de dados**: apenas cidades válidas no Brasil são sugeridas ao usuário
+- **Responsividade e UX**: interface amigável com feedbacks de loading e erro
+
+---
+
+## 📸 Prints do Projeto
+![screencapture-wheaterly-vercel-app-2025-05-19-16_27_31](https://github.com/user-attachments/assets/a4ba9cf8-3f83-49cf-8087-3f846b00378c)
+
+
+---
+
+## 📦 API Utilizada
+
+- **OpenWeatherMap**:
+  - [Weather API](https://openweathermap.org/current) — dados meteorológicos
+  - [Geocoding API](https://openweathermap.org/api/geocoding-api) — autocomplete com base no nome da cidade
+
+---
+
+## ✨ Créditos
+
+Projeto desenvolvido para treinar integração com APIs externas, manipulação de estados em React e boas práticas de UX com autocomplete e feedback visual.
+
+---
+
